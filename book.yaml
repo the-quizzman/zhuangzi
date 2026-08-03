@@ -1,0 +1,31 @@
+# Quizzman Classical Text — book-level config
+# Spec: docs/CLASSICAL-TEXT-SPEC.md (classical-text/v1)
+
+spec: classical-text/v1
+id: zhuangzi
+title: Trang Tử
+title_original: 莊子
+author: Trang Chu
+language: vi
+category: dao-gia
+chapter_count: 33
+chapter_glob: chapters/*.md
+status: draft
+
+licenses:
+  original: PD-old
+  bronzemirror_en: CC-BY-SA-4.0
+
+sources:
+  bronzemirror: https://thebronzemirror.com/
+  primary: TBD
+
+publish:
+  base_url: https://wiki.quizzman.com
+  book_path: /books/trang-tu
+
+rebuild:
+  mode: incremental
+  webhook_endpoint: /api/github/webhook
+  rebuild_endpoint: /api/wiki/rebuild
+  branch: main

@@ -1,0 +1,19 @@
+# Licenses
+
+This repository aggregates public-domain and openly licensed texts for **Trang Tử**（莊子）.
+
+## Original Chinese text (Hán văn)
+
+Public domain (PD-old). Classical work published millennia ago / author deceased > 100 years.
+
+## The Bronze Mirror English excerpts (when present)
+
+- Source: https://thebronzemirror.com/
+- License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+You must retain attribution and share derivatives of the Bronze Mirror translation layer under CC BY-SA 4.0 (or compatible).
+
+## Repo tooling / config
+
+Scripts and CI workflows are for Quizzman Wiki integration.
