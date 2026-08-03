@@ -1,20 +1,17 @@
 # Attribution & licenses
 
-## 1. Original Chinese text
+## Original Chinese text
 
-Public domain (PD-old). Work: **莊子**.
+- incrediblesound/classical-chinese texts/zhuangzi.js
+- URL: https://github.com/incrediblesound/classical-chinese
 
-Full-text import source is still TBD for most chapters (scaffold created 33 files).
+Classical Chinese source text is public domain (PD-old).
 
-## 2. The Bronze Mirror
+## The Bronze Mirror
 
 - Site: https://thebronzemirror.com/
-- Content used: curated English translations / perspectives matched to this work (when available)
-- License (stated on corpus): Original translations **CC BY-SA 4.0**; original Chinese texts public domain
-- Local snapshot: parent factory `classical-texts/sources/bronzemirror-corpus.json`
+- English curated excerpts retained under **CC BY-SA 4.0** when present in chapters.
 
-When reusing Bronze Mirror English layers, retain attribution and share-alike under CC BY-SA 4.0.
+## Refresh
 
-## 3. Dao De Jing sibling
-
-Pattern and Spec copied from https://github.com/the-quizzman/daodejing
+Imported by `classical-texts/scripts/import_pd_text.py`.
